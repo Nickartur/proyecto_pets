@@ -4,6 +4,8 @@ from openpyxl import Workbook
 from reportlab.lib.pagesizes import A4  # <---- Libreria
 from reportlab.pdfgen import canvas  # <---- Libreria
 import datetime
+from reportlab.lib.pagesizes import A4  # <---- Libreria
+from reportlab.pdfgen import canvas  # <---- Libreria
 # Create your views here.
 
 def reporte(request):
@@ -46,6 +48,11 @@ def v_reporte(request):
 
     return response
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> abbb39cf52e16b9ac26b683b2b9ea291a227728f
 def v_generar_pdf(request): #<----- View
     # Crear la respuesta HTTP con el tipo de contenido para PDF
     response = HttpResponse(content_type='application/pdf')

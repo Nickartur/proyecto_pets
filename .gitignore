@@ -1,4 +1,8 @@
 venv_pets
 __pycache__
 db.sqlite3
+<<<<<<< HEAD
 vemv_clone
+=======
+venv_clon
+>>>>>>> abbb39cf52e16b9ac26b683b2b9ea291a227728f
